@@ -364,3 +364,6 @@ find /home/ec2-user -name "*.csv" -size +500k | wc -l
 find /home/ec2-user -name "*.csv" -size +50k | wc -l
 find /home/ec2-user -name "*.csv" -size +5k | wc -l
 find /home/ec2-user -name "*.csv" -size +1k | wc -l
+find /home/ec2-user -name "*.sh" -size +10k | wc -l
+find /home/ec2-user -name "*.sh" -size +1k | wc -l
+find /home/ec2-user -name "*.sh" -size +1k
