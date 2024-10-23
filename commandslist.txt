@@ -270,3 +270,84 @@ sudo postqueue -i 49MITcS6002321
 sudo mailq
 sudo systemctl restart postfix
 sudo mailq
+clear
+crontab -e
+clear
+crontab -e
+/home/ec2-user/shell_scripts/history_task.sh 
+sudo vi ~/.bash_profile
+crontab -e
+/home/ec2-user/shell_scripts/history_task.sh
+ls
+pwd
+clear
+/home/ec2-user/shell_scripts/history_task.sh
+cat /home/ec2-user/shell_scripts/history_task.sh
+sudo vi ~/.bash_rc
+vi .bashrc
+crontab -e
+ls
+pwd
+clear
+/home/ec2-user/shell_scripts/history_task.sh
+sudo vi ~/.bash_profile
+crontab -e
+/home/ec2-user/shell_scripts/history_task.sh
+ls
+pes
+pwd
+clear
+/home/ec2-user/shell_scripts/history_task.sh
+cat /home/ec2-user/shell_scripts/history_task.sh
+clear
+history
+cd  shell_scripts/
+ls
+cd
+ls
+cd training-biz-nikhil/
+ls
+cat commandslist.txt 
+clear
+cd
+clear\
+clear
+history
+cd training-biz-nikhil/
+ls
+cat commandslist.txt 
+d
+cd
+cat commandslist.txt 
+cat /home/ec2-user/shell_scripts/history_task.sh
+clear
+cd shell_scripts/
+ls
+vi history_task.sh
+cd
+git clone git@github.com:N1khil0805/training-biz-nikhil.git
+sudo yum install git
+git clone git@github.com:N1khil0805/training-biz-nikhil.git
+ssh-keygen -t rsa -b 4096 -C "pnaganikhil314@gmail.com"
+cat /home/ec2-user/.ssh/id_rsa.pub
+git clone git@github.com:N1khil0805/training-biz-nikhil.git
+ls
+cd shell_scripts/
+ls
+vi history_task.sh 
+chmod +x history_task.sh 
+ls
+sudo vi .bashrc
+sudo vi ~/bashrc
+sudo vi ~/.bash_profile
+./history_task.sh 
+vi history_task.sh 
+./history_task.sh 
+clear
+ls
+cd shell_scripts/
+l
+ls
+crontab -l
+crontab -e
+clear
