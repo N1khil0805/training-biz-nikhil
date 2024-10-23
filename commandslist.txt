@@ -357,3 +357,5 @@ cd
 clear
 free -g
 free -k
+du -
+du -h
