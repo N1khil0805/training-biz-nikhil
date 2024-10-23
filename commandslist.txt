@@ -376,3 +376,4 @@ find ~/* -type f -name "*.sh" -exec du -k {} +
 find ~/* -type f -name "*.sh" -exec ls -lh {} + | awk '$5+0 > 500 {print $9}' | wc -l
 find ~/* -type f -name "*.sh" -exec ls -lh {} + | awk '$5+0 > 500 {print $9}'
 find ~/* -type f -name "*.sh" -exec ls -lh {} + 
+ps -u ec2-user -o pid,ppid,cmd,%mem,%cpu --sort=-%cpu
