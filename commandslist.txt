@@ -383,3 +383,4 @@ htop -u ec2-yser
 sudo yum install htop
 clear
 ps aux | grep ^ec2-user | sort -rk 3
+ps -p $(pgrep -u ec2-user) -o pid,ppid,cmd,%mem,%cpu --sort=-%cpu
