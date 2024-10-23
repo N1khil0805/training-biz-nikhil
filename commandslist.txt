@@ -371,3 +371,5 @@ find /home/ec2-user -type f -name "*.sh" -exec du -k {} + | awk '$1 > 10' | wc -
 find /home/ec2-user -type f -name "*.sh" -exec du -k {} + | awk '$1 > 1' | wc -l
 find /home/ec2-user -type f -name "*.sh" -exec du -k {} + 
 find /home/ec2-user -type f -name "*.sh" -exec du -k {} + | awk '$1 > 500' | wc -l
+find /home/ec2-user -type f -name "*.sh" -exec du -k {} + 
+find ~/* -type f -name "*.sh" -exec du -k {} + 
