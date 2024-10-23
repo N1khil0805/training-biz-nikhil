@@ -382,3 +382,4 @@ clear
 htop -u ec2-yser
 sudo yum install htop
 clear
+ps aux | grep ^ec2-user | sort -rk 3
