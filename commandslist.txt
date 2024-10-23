@@ -386,3 +386,4 @@ ps aux | grep ^ec2-user | sort -rk 3
 ps -p $(pgrep -u ec2-user) -o pid,ppid,cmd,%mem,%cpu --sort=-%cpu
 find ~/* type -f -name "*.xlsx" -exec rm {} +
 find ~/* -type f -name "*.xlsx" -exec rm {} +
+find ~/* -type l -exec readlink -f {} \;
