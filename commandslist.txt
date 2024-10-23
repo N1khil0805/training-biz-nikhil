@@ -414,3 +414,4 @@ ls -lh ~/*.sh | awk '$5+0 > 500 {count++} END {print count}' | wc -l
 ls -lh ~/*.sh | awk '$5+0 > 500 {print $9}' | wc -l
 ls -lh ~/*.sh | awk '$5+0 > 500 {count++} END {print count}'
 du -k */*.sh | grep -v '^0' | awk '$1 > 500 {count++} END {print count}'
+du -k ~/*.sh | grep -v '^0' | awk '$1 > 500 {count++} END {print count}'
