@@ -367,3 +367,4 @@ find /home/ec2-user -name "*.csv" -size +1k | wc -l
 find /home/ec2-user -name "*.sh" -size +10k | wc -l
 find /home/ec2-user -name "*.sh" -size +1k | wc -l
 find /home/ec2-user -name "*.sh" -size +1k
+find /home/ec2-user -type f -name "*.sh" -exec du -k {} + | awk '$1 > 10' | wc -l
