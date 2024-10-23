@@ -1,0 +1,272 @@
+clear
+ls
+cd .ssh
+ls
+cat authorized_keys 
+cd ..
+ls
+cat id_rsa.pub 
+cd .ssh
+ls
+vi authorized_keys 
+cd
+clear
+ls
+rm id_rsa.pub 
+ls
+mkdir shesll_scrips
+rm shesll_scrips/
+rm shesll_scrips
+rmdir shesll_scrips
+mkdir shell_scripts
+ls
+cd shell_scripts/
+vi script1.sh
+vi file1.txt
+script1.sh
+./script1.sh
+sudo ./script1.sh
+.script1.sh
+/script1.sh
+ls
+chmod u+x script1.sh 
+ls
+./script1.sh
+./script1.sh  file1.txt
+./script1.sh  file1.txt file2.txt
+ls
+cd
+ls
+clear
+pwd
+ls
+cd dmp_files 
+cat dmp_files 
+clear
+ls
+rm dmp_files 
+ls
+cd classicmodels\ .dmp 
+cat classicmodels\ .dmp 
+ls
+rm classicmodels\ .dmp 
+ls
+rm classicmodels\ .dmp 
+ls
+rm classicmodels\ .dmp 
+ls
+clear
+ls
+rm classicmodels\ .dmp 
+clear
+ls
+pscp "C:\Users\nikhil.pabbithi\Downloads\classicmodels .dmp" ec2-user@51.20.127.203:/home/ec2-user
+clear
+cat /etc/redhat-release
+sudo yum install java-1.8.0-openjdk -y
+sudo yum install wget -y
+clear
+sudo yum update -y
+java -version
+java --version
+wget wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1729580318_aa9ee93fa897f89f7c5bf240d86e734f
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1729580318_aa9ee93fa897f89f7c5bf240d86e734f
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1729580788_05ce6a2ee10be046d1224aff4cdbe025
+ls -lh
+ls
+mv 'oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1729580788_05ce6a2ee10be046d1224aff4cdbe025' oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm -y
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+ls
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm -y
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm -y
+clear
+cls
+clear
+ sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm -y
+/etc/sysconfig/oracle-xe-21c.conf
+vi /etc/sysconfig/oracle-xe-21c.conf
+sudo bash
+sudo /etc/sysconfig/oracle-xe-21c.conf
+sudo vi /etc/sysconfig/oracle-xe-21c.conf
+vi /opt/oracle/product/21c/dbhomeXE/cv/admin/cvu_config 
+sudo vi /opt/oracle/product/21c/dbhomeXE/cv/admin/cvu_config
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+ls
+sudo /etc/init.d/oracle-xe-21c configure
+cd .ssh
+ls
+vi authorized_keys 
+clar
+clear
+history
+ sudo /etc/init.d/oracle-xe-21c configure
+sudo yum install tmux
+sqlplus
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+env | grep ORACLE
+sqlplus
+clear
+ls
+cd shell_scripts/
+;s
+ls
+vi system_info.sh
+chmod +x system_info.sh
+./system_info.sh > system-data.txt
+ls
+cat system-data.txt 
+vi system_info.sh
+./system_info.sh > system-data.txt
+cat system-data.txt 
+vi system_info.sh
+./system_info.sh > system-data.txt
+cat system-data.txt 
+vi system_info.sh
+./system_info.sh > system-data.txt
+cat system-data.txt
+vi system_info.sh
+./system_info.sh > system-data.txt
+cat system-data.txt
+sudo yum install sendmail -y    # On Amazon Linux or RHEL-based systems
+sudo systemctl start sendmail
+sudo systemctl enable sendmail
+sudo systemctl start sendmail
+sudo systemctl enable sendmail
+./system_info.sh | sendmail -v naganikhil897@gmail.com
+cd
+pwd
+sudo yum install python3 -y
+py --version
+python -version
+python -h
+python --version
+sudo yum update -y
+sudo yum install python3 -y
+sudo yum install python3-pip -y
+pip3 install psutil
+vi send_mail.py
+python3 send_mail.py
+vi send_mail.py
+python3 send_mail.py
+vi send_mail.py
+python3 send_mail.py
+vi send_mail.py
+sudo yum install sendmail -y
+sudo systemctl start sendmail
+sudo systemctl enable sendmail
+ls
+cd shell_scripts/
+ls
+cd
+mv ~/send_mail.py ~/shell_scripts/send_mail.py
+ls
+cd shell_scripts/
+ls
+vi system_info.sh 
+ls
+chmod +x system_info.sh
+./system_info.sh
+ls
+vi system_info.sh 
+./system_info.sh
+vi system_info.sh 
+sudo mailq
+sudo tail -n 100 /var/log/maillog
+sudo /etc/mail/sendmail.mc
+cd
+sudo /etc/mail/sendmail.mc
+sudo su -
+sudo mailq
+sudo postsuper -d ALL
+sudo sendmail -q -v 49MJHtT2002660*
+clear
+sudo vi /etc/s-nail.rc
+cls
+clear
+sudo /etc/mail/sendmail.cf
+sudo vi /etc/mail/sendmail.cf
+clear
+sudo yum install -y s-nail
+sudo yum install -y sysstat
+sudo vi /etc/s-nail.rc
+sudo chmod 777 /etc/s-nail.rc
+sudo vi /etc/s-nail.rc
+cd shell_scripts/
+sudo vi system_report_smail.sh
+sudo chmod 777 /home/ec2-user/system_report_smail.sh
+cd
+sudo chmod 777 /home/ec2-user/system_report_smail.sh
+cd shell_scripts/
+sudo chmod 777 /home/ec2-user/shell_scripts/system_report_smail.sh
+./system_report_smail.sh
+sudo vi system_report_smail.sh
+sudo vi /etc/s-nail.rc
+./system_report_smail.sh
+cd
+cd shell_scripts/
+cat send_mail.py
+cd
+mailq
+sudo mailq
+sudo postqueue -f
+postqueue -f
+sudo yum install postfix
+postqueue -f
+sudo postqueue -f
+sudo systemctl start postfix
+sudo systemctl restart postfix
+sudo postqueue -f
+sudo mailq
+sudo postqueue -f
+sudo mailq
+postqueue -f
+sudo mailq
+sudo chmod 600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
+sudo postqueue -f -v
+sudo postqueue -f -v all
+ls
+rm dead.letter 
+ls
+sudo yum install postfix -y
+sudo vi /etc/postfix/sasl_passwd
+sudo postmap /etc/postfix/sasl_passwd
+ls /etc/postfix/
+sudo vi /etc/postfix/main.cf
+sudo yum install cyrus-sasl cyrus-sasl-plain -y
+sudo systemctl start postfix
+sudo systemctl enable postfix
+sudo systemctl restart postfix
+sudo systemctl reload postfix
+echo "hello from Me" | naganikhil897@gmail.com
+echo "hello from Me" | sendmail naganikhil897@gmail.com
+sudo mailq
+sudo postqueue -f
+sudo mailq
+touch send_mail.sh
+ls
+cd shell_scripts/
+ls
+touch sendmail_mail.sh
+chmod 700 sendmail_mail.sh
+sudo vi sendmail_mail.sh
+./sendmail_mail.sh 
+cd
+sudo postfix check
+sudo systemctl status postfix
+sudo postqueue -f -v
+sudo mailq
+sudo postqueue -i 49MJJmaM002699
+sudo postqueue -i 49MJHtT2002660
+sudo postqueue -i 49MJJne1002736
+sudo postqueue -i 49MITcS6002321
+sudo mailq
+sudo systemctl restart postfix
+sudo mailq
