@@ -352,3 +352,6 @@ crontab -l
 crontab -e
 clear
 cd shell_scripts/
+clear
+cd
+clear
