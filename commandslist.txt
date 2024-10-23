@@ -355,3 +355,5 @@ cd shell_scripts/
 clear
 cd
 clear
+free -g
+free -k
