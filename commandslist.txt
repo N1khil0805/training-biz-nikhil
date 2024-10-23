@@ -390,3 +390,5 @@ find ~/* -type l -exec readlink -f {} \;
 find ~/* -type l -ls
 find ~/* -type d -exec sh -c 'for dir; do [ "$(find "$dir" -maxdepth 1 -type f | wc -l)" -gt 100 ] && echo "$dir"; done' sh {} +
 find ~/* -type d -exec sh -c 'for dir; do [ "$(find "$dir" -maxdepth 1 -type f | wc -l)" -gt 2 ] && echo "$dir"; done' sh {} +
+find ~/* -type d -exec sh -c 'find "{}" -maxdepth 1 -type f | wc -l' \; | awk '$1 > 2 {print FILENAME}' FILENAME="$0"
+find ~/* -type d -exec sh -c 'find "{}" -maxdepth 1 -type f | wc -l' \; | awk '$1 > 1 {print FILENAME}' FILENAME="$0"
