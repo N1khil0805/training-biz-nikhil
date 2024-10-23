@@ -379,3 +379,6 @@ find ~/* -type f -name "*.sh" -exec ls -lh {} +
 ps -u ec2-user -o pid,ppid,cmd,%mem,%cpu --sort=-%cpu
 top -u ec2-user -o %CPU
 clear
+htop -u ec2-yser
+sudo yum install htop
+clear
