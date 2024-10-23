@@ -396,3 +396,5 @@ find ~/* -type d -exec sh -c 'find "{}" -maxdepth 1 -type f | wc -l' \; | awk '$
 ls -lh ~/*.csv | awk '$5+0 > 500 {count++} END {print count}'
 ls -lh ~/"*.csv" | awk '$5+0 > 500 {count++} END {print count}'
 sudo ls -lh ~/*.csv | awk '$5+0 > 500 {count++} END {print count}'
+ls -lh ~/*.sh | awk '$5+0 > 500 {count++} END {print count}'
+ls -lh ~/*.sh | awk '$5+0 > 50 {count++} END {print count}'
