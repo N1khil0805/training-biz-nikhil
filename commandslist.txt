@@ -410,3 +410,5 @@ ls -lh ~/*.csv | awk '$5+0 > 50 {print $9}' | wc -l
 ls -lh ~/*.sh | awk '$5+0 > 50 {print $9}' | wc -l
 ls -lh ~/*.sh | awk '$5+0 > 500 {count++} END {print count}'
 ls -lh ~/*.csv | awk '$5+0 > 500 {count++} END {print count}'
+ls -lh ~/*.sh | awk '$5+0 > 500 {count++} END {print count}' | wc -l
+ls -lh ~/*.sh | awk '$5+0 > 500 {print $9}' | wc -l
