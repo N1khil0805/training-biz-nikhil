@@ -400,3 +400,8 @@ ls -lh ~/*.sh | awk '$5+0 > 500 {count++} END {print count}'
 ls -lh ~/*.sh | awk '$5+0 > 50 {count++} END {print count}'
 ls -lh ~/*.sh | awk '$5+0 > 50 {print $9}'
 ls -lh ~/"*.sh" | awk '$5+0 > 50 {print $9}'
+ls -lh ~/*.sh | awk '$5+0 > 50'
+ls -lh ~/*.sh | awk '$5+0'
+ls -lh ~/*.sh | awk $5+0
+ls -lh ~/*.sh 
+ls
