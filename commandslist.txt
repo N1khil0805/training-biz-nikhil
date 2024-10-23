@@ -405,3 +405,6 @@ ls -lh ~/*.sh | awk '$5+0'
 ls -lh ~/*.sh | awk $5+0
 ls -lh ~/*.sh 
 ls
+ls -lh ~/*.csv | awk '$5+0 > 50 {print $9}' 
+ls -lh ~/*.csv | awk '$5+0 > 50 {print $9}' | wc -l
+ls -lh ~/*.sh | awk '$5+0 > 50 {print $9}' | wc -l
