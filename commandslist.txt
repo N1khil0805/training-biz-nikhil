@@ -359,3 +359,4 @@ free -g
 free -k
 du -
 du -h
+find ~/* -name "*.csv" -size +500k | wc -l
